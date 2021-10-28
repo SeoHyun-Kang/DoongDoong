@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="800dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray_2">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/btn_back" />
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="87dp"
+        android:src="@drawable/img_doong"></ImageView>
+
+
+    <TextView
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:gravity="center_horizontal"
+        android:letterSpacing="-0.01"
+        tools:text="할 아이에 대해" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="138dp"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:gravity="center_horizontal"
+        android:letterSpacing="-0.01"
+        android:textColor="@color/gray_6"
+        android:text="알려주세요!" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="245dp"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:gravity="center_horizontal"
+        android:letterSpacing="-0.01"
+        android:textColor="@color/gray_6"
+        android:text="아이 이름" />
+
+    <View
+        android:layout_width="225dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="271.5dp"
+        android:background="@color/gray_2"></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="285dp"
+        android:text="생일" />
+
+    <View
+        android:layout_width="225dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="311.5dp"
+        android:background="@color/gray_2"></View>
+
+    <TextView
+        style="@style/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="285dp"
+        android:text="년"/>
+
+    <TextView
+        style="@style/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="246dp"
+        android:layout_marginTop="285dp"
+        android:text="월"/>
+
+    <TextView
+        style="@style/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="285dp"
+        android:text="일" />
+
+    <ImageButton
+        android:id="@+id/btn_boy"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/btn_boy_bs" />
+
+    <ImageButton
+        android:id="@+id/btn_girl"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/btn_girl_bs" />
+
+    <ImageButton
+        android:id="@+id/btn_disable"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="678dp"
+        android:src="@drawable/btn_next_bs" />
+
+</RelativeLayout>

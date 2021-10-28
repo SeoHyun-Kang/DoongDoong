@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16261261261261262" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/bg_children_bs.xml" value="0.1037037037037037" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/btn_boy_bs.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/btn_child_bs.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/btn_children_bs.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/btn_end.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/btn_girl.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/btn_girl_bs.xml" value="0.16261261261261262" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/btn_next_bs.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/thumb.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/drawable/track.xml" value="0.15925925925925927" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/font/spoqa_han_sans_neo.xml" value="0.10092592592592593" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/font/spoqa_han_sans_neo_medium.xml" value="0.17477477477477477" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_home.xml" value="0.21936936936936938" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_main.xml" value="0.11626139817629179" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_record.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_setting_code.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_setting_default.xml" value="0.21936936936936938" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_setting_info.xml" value="0.21936936936936938" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_signup_code.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_signup_info_child.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_signup_num.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/activity_signup_record_start.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DoongDoong/app/src/main/res/layout/btn_boy.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

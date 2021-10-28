@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "590871790162",
+    "firebase_url": "https://doong-doong-525a7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "doong-doong-525a7",
+    "storage_bucket": "doong-doong-525a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590871790162:android:a224bf26e66bc0511b158b",
+        "android_client_info": {
+          "package_name": "com.example.doong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590871790162-a30fdp3d8to71t0t5eo1caaal0tv6569.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2fIfA0OgvGg-HWq_MBV7sddFIOi-qFtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590871790162-a30fdp3d8to71t0t5eo1caaal0tv6569.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590871790162:android:17a8701d6fa722691b158b",
+        "android_client_info": {
+          "package_name": "com.example.doongdoong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590871790162-a30fdp3d8to71t0t5eo1caaal0tv6569.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2fIfA0OgvGg-HWq_MBV7sddFIOi-qFtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590871790162-a30fdp3d8to71t0t5eo1caaal0tv6569.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

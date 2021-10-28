@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_info"
+    android:layout_width="360dp"
+    android:layout_height="800dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray_1">
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"></View>
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/btn_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:gravity="center_horizontal"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="2sp"
+        android:text="아이 정보 수정"
+        android:textColor="@color/gray_6"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/main_impact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="147dp"
+        android:text="아이 이름"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="225dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="143.5dp"
+        android:background="@null"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textColorHint="#A0A0A0" />
+
+    <View
+        android:layout_width="225dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="173.5dp"
+        android:background="@color/gray_2">
+    </View>
+
+    <TextView
+        style="@style/main_impact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="187dp"
+        android:text="생일"/>
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="183.5dp"
+        android:background="@null"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textColorHint="#A0A0A0" />
+
+    <TextView
+        style="@style/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="187dp"
+        android:text="년"/>
+
+    <EditText
+        android:id="@+id/month"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="183dp"
+        android:layout_marginTop="183.5dp"
+        android:background="@null"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textColorHint="#A0A0A0" />
+
+    <TextView
+        style="@style/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="246dp"
+        android:layout_marginTop="187dp"
+        android:text="월"/>
+
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="183.5dp"
+        android:background="@null"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textColorHint="#A0A0A0" />
+
+    <TextView
+        style="@style/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="187dp"
+        android:text="일"/>
+
+    <View
+        android:layout_width="225dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="213.5dp"
+        android:background="@color/gray_2"></View>
+
+    <ImageButton
+        android:id="@+id/btn_boy"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/btn_boy_bs" />
+
+    <ImageButton
+        android:id="@+id/btn_girl"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/btn_girl_bs" />
+
+    <ImageButton
+        android:id="@+id/btn_disable"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="678dp"
+        android:src="@drawable/btn_end" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/signup_code"
+    android:layout_width="360dp"
+    android:layout_height="800dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray_1">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/btn_back" />
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="25.7dp"
+        android:layout_marginTop="91dp"
+        android:src="@drawable/img_doong" />
+<!--        android:background="@color/main"></View>-->
+
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:gravity="center_horizontal"
+        android:letterSpacing="-0.01"
+        android:text="의 고유번호를"
+        android:textColor="@color/gray_6"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="126dp"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:gravity="center_horizontal"
+        android:letterSpacing="-0.01"
+        android:text="입력해주세요"
+        android:textColor="@color/gray_6"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="207dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="204dp"
+        android:src="@drawable/img_doong_num" />
+
+<!--    <View-->
+<!--        android:layout_width="312dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:layout_marginLeft="24dp"-->
+<!--        android:layout_marginTop="385dp"-->
+<!--        android:background="#ffffff"-->
+<!--        android:src="@drawable/bg_code" />-->
+
+    <EditText
+        android:id="@+id/doong_num"
+
+        android:layout_width="312dp"
+        android:layout_height="56dp"
+
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="385dp"
+        android:background="@drawable/bg_code"
+        android:hint="고유번호를 입력해주세요."
+        android:imeOptions="actionDone"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#A0A0A0" />
+
+    <ImageButton
+        android:id="@+id/btn_disable"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="678dp"
+        android:src="@drawable/btn_end" />
+
+    </RelativeLayout>

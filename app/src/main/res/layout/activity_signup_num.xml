@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="800dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray_2">
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="87dp"
+        android:src="@drawable/img_doong"></ImageView>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:letterSpacing="-0.01"
+        android:textColor="#38383c"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:text="할 아이는 " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="126dp"
+        android:letterSpacing="-0.01"
+        android:textColor="#38383c"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:text="몇 명인가요?" />
+
+    <ImageButton
+        android:id="@+id/child"
+        android:layout_width="143dp"
+        android:layout_height="188dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="289dp"
+        android:src="@drawable/btn_child_bs"
+        android:state_pressed="true" />
+
+    <ImageButton
+        android:id="@+id/children"
+        android:layout_width="143dp"
+        android:layout_height="188dp"
+        android:layout_marginLeft="187dp"
+        android:layout_marginTop="289dp"
+        android:src="@drawable/btn_children_bs" />
+
+    <ImageButton
+        android:id="@+id/btn_disable"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="678dp"
+        android:src="@drawable/btn_next_bs" />
+
+
+</RelativeLayout>
