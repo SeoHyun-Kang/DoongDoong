@@ -116,11 +116,12 @@
         android:text="아이와의 채팅 알림을 받을 수 있어요" />
 
     <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/alert"
         android:layout_width="102dp"
         android:layout_height="92dp"
         android:layout_marginLeft="270dp"
         android:layout_marginTop="260dp"
-        android:checked="true"
+        android:checked="false"
         android:padding="50dp"
         android:thumb="@drawable/thumb"
         app:track="@drawable/track" />

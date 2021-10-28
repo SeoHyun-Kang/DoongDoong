@@ -16,6 +16,9 @@ import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class signup_code extends AppCompatActivity {
 
 
@@ -25,6 +28,10 @@ public class signup_code extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_code);
 
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference doong_numberRef = database.getReference("doong_number");
+
+        TextView doong_code = (TextView) findViewById(R.id.doong_num);
         ImageButton btn_next = (ImageButton) findViewById(R.id.btn_disable);
         btn_next.setOnClickListener(new View.OnClickListener() {
 
@@ -36,6 +43,7 @@ public class signup_code extends AppCompatActivity {
                 switch (view.getId()) {
                     case R.id.btn_disable:
                         btn_next.setSelected(true);
+                        doong_numberRef.setValue(doong_code.getText().toString());
                 }
             }
         });

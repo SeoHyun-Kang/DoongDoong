@@ -7,12 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class signup_num extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_num);
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference child_numberRef = database.getReference("child_number");
 
         ImageButton btn_next = (ImageButton) findViewById(R.id.btn_disable);
         btn_next.setOnClickListener(new View.OnClickListener() {
@@ -36,6 +41,7 @@ public class signup_num extends AppCompatActivity {
                 switch (v.getId()) {
                     case R.id.child:
                         btn_child.setSelected(true);
+                        child_numberRef.setValue(1);
                         break;
                 }
             }
@@ -47,6 +53,7 @@ public class signup_num extends AppCompatActivity {
                 switch (v.getId()) {
                     case R.id.children:
                         btn_children.setSelected(true);
+                        child_numberRef.setValue(2);
                         break;
                 }
             }

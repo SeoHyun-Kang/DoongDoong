@@ -34,6 +34,13 @@
         android:gravity="center_horizontal"
         android:text="연결 코드 확인"/>
 
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="207dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="131dp"
+        android:src="@drawable/img_doong_num" />
+
     <EditText
         android:id="@+id/doong_num"
 
@@ -47,15 +54,8 @@
         android:paddingLeft="10dp"
         android:singleLine="true"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#ff9669"
         android:textColorHint="#A0A0A0" />
-
-    <ImageView
-        android:layout_width="312dp"
-        android:layout_height="207dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="131dp"
-        android:src="@drawable/img_doong_num" />
 
     <ImageButton
         android:id="@+id/btn_disable"

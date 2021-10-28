@@ -1,6 +1,7 @@
 package com.example.doongdoong;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +14,16 @@ public class setting extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
+
+        ImageButton btn_back = (ImageButton) findViewById(R.id.btn_back);
+        btn_back.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), home.class);
+                startActivity(intent);
+            }
+        });
 
         ImageButton btn_check_code = (ImageButton) findViewById(R.id.btn_check_code);
         btn_check_code.setOnClickListener(new View.OnClickListener() {
@@ -58,6 +69,9 @@ public class setting extends AppCompatActivity {
                 }
             }
         });
+
+        //SwitchCompat alert = (SwitchCompat) findViewById(R.id.alert);
+
 
     }
 }
